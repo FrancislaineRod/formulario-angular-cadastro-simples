@@ -1,0 +1,92 @@
+/* Estilo para o container do formulário */
+.formulario {
+    max-width: 500px; /* Define a largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário horizontalmente */
+    padding: 20px; /* Espaçamento interno ao redor do conteúdo */
+    border: 1px solid #ccc; /* Borda ao redor do formulário */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-family: Arial, sans-serif; /* Define a fonte do formulário */
+    background-color: #f8e6f0; /* Cor de fundo do formulário */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para um efeito de elevação */
+}
+
+/* Estilo para os grupos de campos */
+.form-group {
+    margin-bottom: 20px; /* Espaçamento abaixo de cada grupo de campo */
+}
+
+/* Estilo para os rótulos dos campos */
+label {
+    display: block; /* Exibe o rótulo como bloco */
+    font-weight: bold; /* Define o texto do rótulo como negrito */
+    margin-bottom: 5px; /* Espaçamento abaixo do rótulo */
+}
+
+/* Estilo para as entradas de texto */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+    width: calc(100% - 20px); /* Ajusta a largura para compensar o padding */
+    padding: 10px; /* Espaçamento interno das entradas de texto */
+    border: 1px solid #a7185a; /* Define a cor da borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Inclui o padding e a borda na largura total */
+}
+
+/* Estilo para o botão de envio */
+button[type="submit"] {
+    background-color: #a7185a; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    cursor: pointer; /* Define o cursor como pointer ao passar sobre o botão */
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+button[type="submit"]:hover {
+    background-color: #850e44; /* Cor de fundo ao passar o mouse sobre o botão */
+}
+
+/* Estilo para o botão de busca */
+button[type="button"] {
+    background-color: #a7185a; /* Cor de fundo do botão de busca */
+    color: #fff; /* Cor do texto do botão de busca */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 5px 10px; /* Espaçamento interno do botão de busca */
+    cursor: pointer; /* Define o cursor como pointer ao passar sobre o botão */
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+button[type="button"]:hover {
+    background-color: #850e44; /* Cor de fundo ao passar o mouse sobre o botão de busca */
+}
+
+/* Adicione esta regra */
+.cep-container {
+    display: flex; /* Define o layout flexível */
+    flex-direction: column; /* Itens dispostos em coluna */
+    align-items: flex-start; /* Alinhamento à esquerda */
+}
+
+/* Estilo para o botão de busca */
+button.btn-buscar {
+    margin-left: 0; /* Margem esquerda zero para o botão de busca */
+    margin-top: 10px; /* Espaçamento acima do botão de busca */
+}
+
+/* Estilo para o título do formulário */
+.titulo-formulario {
+    color: #a7185a; /* Define a cor do texto do título */
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+/* Estilo para mensagens de erro */
+.error {
+    color: red; /* Cor do texto das mensagens de erro */
+    font-size: 0.875em; /* Tamanho da fonte das mensagens de erro */
+    margin-top: 5px; /* Espaçamento acima das mensagens de erro */
+}
